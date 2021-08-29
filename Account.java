@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 public class Account {
-	static String name = "Nivya";
+	static String name;
 	double amountBalance;
 	double withdrawAmount;
 	double depositAmount;
